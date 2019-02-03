@@ -16,9 +16,9 @@ def praviTabelu(niz, fig, ax, br_redova, indeks_promjene, kolona_promjene=1):
     if indeks_promjene != -1:
         t._cells[(indeks_promjene+1, kolona_promjene)].set_facecolor("#D32C2C")
         
-    plt.show()
+    plt.show(block = False)
     plt.pause(0.001)
-    plt.hold()
+    #plt.hold()
 
 class Graf:
     
@@ -181,7 +181,7 @@ g.dodajGranu(4, 3, -3)
 
 g.Bellman_Ford(0)
 
-
+'''
 g1 = Graf(7, True)
 
 g1.dodajGranu(0, 1, 6)
@@ -230,4 +230,4 @@ g2.dodajGranu(10, 11, 1)
 g2.Bellman_Ford(0)
 
 
-            
+            '''
