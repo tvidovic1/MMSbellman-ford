@@ -265,6 +265,8 @@ g.dodajGranu(4, 3, -3)
 g.Bellman_Ford(0)
 
 
+
+
 g1 = Graf(7, False)
 g1.dodajGranu(0, 1, 6)
 g1.dodajGranu(0, 2, 2)
